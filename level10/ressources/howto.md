@@ -14,3 +14,9 @@ c
 set $eax = 0
 ```
 but we get stuck because gdb doesnt carry the setuid...
+So we could try to create a symlink and create a race condition !
+We use exploit.sh, and listen to connection with:
+
+```
+nc -lk 127.0.0.1 6969 | grep -v -E "xxx|\(.*\)"
+```
