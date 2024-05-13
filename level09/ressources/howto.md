@@ -13,4 +13,9 @@ So get its content as hex and try to rotate that:
 ```
 xxd -i token
 ```
-And that's it
+
+Add it to rot.c, and run it :
+```
+gcc rot.c -o rot
+./rot
+```
