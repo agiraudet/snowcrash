@@ -2,6 +2,7 @@
 
 ## Summary
 Project SECURITY: Snow Crash serves as an introductory exploration into the realm of cyber security. Through a series of challenges, participants will delve into various aspects of cyber security, gaining insights into vulnerabilities and defense mechanisms within IT systems.
+Log in as user level00 on a vm booted from the ISO given with the project, and try to escalate to the next user until the end.
 
 ## Method Tracking Table
 
